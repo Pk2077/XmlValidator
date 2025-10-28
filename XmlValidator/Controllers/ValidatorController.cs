@@ -26,6 +26,11 @@ namespace XmlValidator.Controllers
         {
             return View();
         }
+        /// <summary>
+        /// Validates XML invoice files against the predefined validation rules
+        /// </summary>
+        /// <param name="PathToXml">Path to the XML file to be validated</param>
+        /// <returns>JSON result containing validation errors or success message</returns>
         public ActionResult Validate(string PathToXml)
         {
             PathToXml = @"C:\Users\Admin\Desktop\testXml\1.xml";
