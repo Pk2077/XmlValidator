@@ -20,6 +20,9 @@ using static System.Net.Mime.MediaTypeNames;
 
 namespace XmlValidator.Controllers
 {
+    /// <summary>
+    /// Controller responsible for validating XML invoice documents against predefined business rules and schemas.
+    /// </summary>
     public class ValidatorController : Controller
     {
         public ActionResult Index()
